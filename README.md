@@ -1,4 +1,4 @@
-### my first repo
+### tic-tac
 ```
-code html, css,  js
+html, css,  js
 ```

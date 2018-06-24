@@ -1,12 +1,47 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html, body {
+body {
 	background: #ccc;
-	width: 100%;
-	height: 100%;
-	background-position: center;
+	display: flex;
+	flex-direction: column;
+	font: 16px Arial, sans-serif;
+	margin-top: 100px;
 }
+
+#app {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 390px;
+	height: 390px;
+	border-radius: 10px;
+	border: 1px solid #444;
+}
+
+.item {
+	width: 33%;
+	height: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	color: tomato;
+	background: #ededed;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*#modalWin {
+	display: flex;
+	margin: auto;
+	width: 330px;
+	height: 120px;
+	background: #444;
+	border: 3px dotted tomato;
+	border-radius: 10px;
+	margin: 2rem auto;
+}*/
